@@ -8,3 +8,44 @@
     display: flex;
     align-items: center;
 }
+/* logo and image*/
+#logo{
+    margin: 34px 45px;
+    
+}
+#logo img{
+    height: 44px;
+    margin: 3px 5px;
+}
+#navbar{
+    position: relative;
+}
+ #navbar ul{
+    display: flex;
+}
+#navbar ::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar li{
+    color: aliceblue;
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+text-decoration: none;
+color: aliceblue;
+}
+#navbar ul li a:hover{
+    background-color: aliceblue ;
+color: black;
+}
