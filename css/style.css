@@ -60,6 +60,7 @@ color: black;
     height: 580px;
     justify-content: center;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #home::before{
     content: "";
